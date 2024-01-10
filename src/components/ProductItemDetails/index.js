@@ -125,6 +125,7 @@ class ProductItemDetails extends Component {
         const onClickAddToCart = () => {
           addCartItem({...productData, quantity})
         }
+        console.log('hello')
         return (
           <div className="product-details-success-view">
             <div className="product-details-container">
